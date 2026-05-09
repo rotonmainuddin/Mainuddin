@@ -1,0 +1,132 @@
+import { Project, BlogPost, NavItem } from './types';
+
+export const PERSONAL_INFO = {
+  name: 'Md. Main Uddin',
+  title: 'Logo, Social Media & Branding Specialist',
+  location: 'Bangladesh',
+  whatsapp: '+8801838276213',
+  email: 'roton.mainuddin2026@gmail.com',
+  behance: 'https://www.behance.net/mainuddinratan',
+  dribbble: 'https://dribbble.com/roton_mainuddin',
+};
+
+export const NAV_ITEMS: NavItem[] = [
+  { label: 'Work', href: '#work' },
+  { label: 'About', href: '#about' },
+  { label: 'Blog', href: '#blog' },
+  { label: 'Contact', href: '#contact' },
+];
+
+export const PROJECTS: Project[] = [
+  {
+    id: '1',
+    title: 'Muslim Kids Logo',
+    category: 'Logo Design',
+    imageUrl: '/src/assets/images/regenerated_image_1777796993704.jpg',
+    behanceUrl: 'https://www.behance.net/gallery/247998245/Logo-Design-For-MUSLIM-KIDS',
+    description: 'A clean and meaningful logo design for a Muslim educational brand.',
+    tags: ['Logo', 'Branding', 'Vector'],
+  },
+  {
+    id: '2',
+    title: 'Legalist Logo Design',
+    category: 'Logo Design',
+    imageUrl: '/src/assets/images/regenerated_image_1778351117907.jpg',
+    behanceUrl: 'https://www.behance.net/gallery/247665153/Legalist-Logo-Design',
+    description: 'Minimalist logo for a legal consultancy firm.',
+    tags: ['Law', 'Professional', 'Minimalist'],
+  },
+  {
+    id: '3',
+    title: 'Outix Agency Branding',
+    category: 'Branding',
+    imageUrl: '/src/assets/images/regenerated_image_1777797001060.png',
+    behanceUrl: 'https://www.behance.net/gallery/239044935/Logo-Design-for-Outixagency',
+    description: 'Modern brand identity system for a digital agency.',
+    tags: ['Identity', 'Strategy', 'Agency'],
+  },
+  {
+    id: '4',
+    title: 'Hajj & Omrah Social Media',
+    category: 'Social Media',
+    imageUrl: '/src/assets/images/regenerated_image_1777797005580.png',
+    behanceUrl: 'https://www.behance.net/gallery/243383129/Hajj-Omrah-Social-Media-Design',
+    description: 'Engaging social media templates for travel services.',
+    tags: ['Social Media', 'Marketing', 'Campaign'],
+  },
+  {
+    id: '5',
+    title: 'Mashrafi Furniture Logo',
+    category: 'Logo Design',
+    imageUrl: '/src/assets/images/regenerated_image_1777797009354.png',
+    behanceUrl: 'https://www.behance.net/gallery/245193749/Mashrafi-Furniture-Logo-(4-Concept)',
+    description: 'Logo concept exploring furniture craftsmanship.',
+    tags: ['Logo', 'Craft', 'Furniture'],
+  },
+  {
+    id: '6',
+    title: 'ISP Brand Potato Social Media Design',
+    category: 'Social Media',
+    imageUrl: '/src/assets/images/regenerated_image_1777797013345.png',
+    behanceUrl: 'https://www.behance.net/gallery/244303725/Social-Media-Design-for-The-Potato',
+    description: 'Creative and colorful social media posts for the Potato brand.',
+    tags: ['ISP', 'Social Media', 'Branding'],
+  },
+  {
+    id: '7',
+    title: 'Shera Trip Logo',
+    category: 'Logo Design',
+    imageUrl: '/src/assets/images/regenerated_image_1777797016267.png',
+    behanceUrl: 'https://www.behance.net/gallery/242722531/shera-trip-logo-design',
+    description: 'Modern travel agency logo design.',
+    tags: ['Travel', 'Aviation', 'Logo'],
+  },
+  {
+    id: '8',
+    title: 'Bookingzatt Logo',
+    category: 'Logo Design',
+    imageUrl: '/src/assets/images/regenerated_image_1777797022069.png',
+    behanceUrl: 'https://www.behance.net/gallery/242494393/Bookingzatt-Logo-Design',
+    description: 'Scheduling and booking platform logo.',
+    tags: ['Booking', 'App', 'Branding'],
+  },
+  {
+    id: '9',
+    title: 'Naari Facebook Cover',
+    category: 'Social Media',
+    imageUrl: '/src/assets/images/regenerated_image_1777797026157.png',
+    behanceUrl: 'https://www.behance.net/gallery/244786213/Facebook-Cover-Design-For-Naari',
+    description: 'Professional Facebook cover design for Naari.',
+    tags: ['Facebook', 'Banner', 'Social'],
+  },
+  {
+    id: '10',
+    title: 'Meharwade Industries',
+    category: 'Logo Design',
+    imageUrl: '/src/assets/images/regenerated_image_1777797028826.png',
+    behanceUrl: 'https://www.behance.net/gallery/245417637/Meharwade-Industries-Logo-Design',
+    description: 'Industrial brand identity and logo.',
+    tags: ['Industrial', 'Corporate', 'Logo'],
+  },
+];
+
+export const BLOG_POSTS: BlogPost[] = [
+  {
+    id: '1',
+    title: 'Why Every Startup Needs a Strong Identity',
+    excerpt: 'Deep dive into the impact of strategic branding on business growth.',
+    content: 'Branding is more than just a logo...',
+    date: 'Jan 15, 2025',
+    readTime: '4 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&q=80&w=800',
+  },
+  {
+    id: '2',
+    title: 'Stop the Scroll: Social Media Design Tips',
+    excerpt: 'How to create posts that engage and convert in seconds.',
+    content: 'Visual hierarchy is key...',
+    date: 'Feb 10, 2025',
+    readTime: '6 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1542744094-24638eff58bb?auto=format&fit=crop&q=80&w=800',
+  },
+];
